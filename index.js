@@ -70,7 +70,7 @@ function parseResponse(response) {
 
 /* display response and update history */
 function displayResponseAndUpdateHistory(question, ans) {
-  responseElement.innerText = `GPT: ${ans}`;
+  responseElement.innerText = `TA: ${ans}`;
 
   const QElement = document.createElement("p");
   QElement.innerText = `Q: ${question}`;
